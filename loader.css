@@ -1,6 +1,8 @@
 html {
     height: 100%;
 }
+
+
 /*
 body {
   height: 100%;
@@ -11,9 +13,7 @@ body {
 }
 */
 
-.container-fluid {
-
-}
+.container-fluid {}
 
 .loader {
     /*    position: fixed;*/
@@ -24,6 +24,7 @@ body {
     background: whitesmoke;
     padding-top: 20%;
     z-index: 9999;
+    overflow: hidden;
     /*    display: block;*/
     /*    display: none;*/
 }
@@ -38,7 +39,6 @@ body {
     /*  z-index: 500;*/
 }
 
-
 .loader__bar1 {
     position: absolute;
     bottom: 0;
@@ -46,7 +46,7 @@ body {
     height: 50%;
     background: #f7484e;
     transform-origin: center bottom;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
     /*    z-index: 600;*/
     left: 0;
     transform: scale(1, 0.2);
@@ -60,7 +60,7 @@ body {
     height: 50%;
     background: #f7484e;
     transform-origin: center bottom;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
     /*    z-index: 600;*/
     left: 15px;
     transform: scale(1, 0.4);
@@ -74,7 +74,7 @@ body {
     height: 50%;
     background: #f7484e;
     transform-origin: center bottom;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
     z-index: 600;
     left: 30px;
     transform: scale(1, 0.6);
@@ -88,7 +88,7 @@ body {
     height: 50%;
     background: #f7484e;
     transform-origin: center bottom;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
     z-index: 600;
     left: 45px;
     transform: scale(1, 0.8);
@@ -102,7 +102,7 @@ body {
     height: 50%;
     background: #f7484e;
     transform-origin: center bottom;
-    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
     z-index: 600;
     left: 60px;
     transform: scale(1, 1);
@@ -184,19 +184,20 @@ body {
     0% {
         transform: scale(1, .2);
     }
-    40%{
+    40% {
         transform: scale(1, .2);
     }
     50% {
         transform: scale(1, 1);
     }
     90% {
-        transform: scale(1,1);
+        transform: scale(1, 1);
     }
     100% {
-        transform: scale(1,.2);
+        transform: scale(1, .2);
     }
 }
+
 @keyframes barUp2 {
     0% {
         transform: scale(1, .4);
@@ -214,6 +215,7 @@ body {
         transform: scale(1, .4);
     }
 }
+
 @keyframes barUp3 {
     0% {
         transform: scale(1, .6);
@@ -222,6 +224,7 @@ body {
         transform: scale(1, .6);
     }
 }
+
 @keyframes barUp4 {
     0% {
         transform: scale(1, .8);
@@ -239,6 +242,7 @@ body {
         transform: scale(1, .8);
     }
 }
+
 @keyframes barUp5 {
     0% {
         transform: scale(1, 1);
