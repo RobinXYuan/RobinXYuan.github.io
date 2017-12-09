@@ -6,7 +6,8 @@
     color: #F46060;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -72,14 +73,14 @@ html, body {
     /*min-width: 200px;*/
     /*    text-align: left;*/
     /*    vertical-align: top;*/
-
     /*    margin-bottom: 60px; */
     /*    margin-bottom: 20%;*/
     z-index: 1;
 }
 
-#main-body .carousel h1{
-    font-family: 'Josefin Sans',sans-serif;;
+#main-body .carousel h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    ;
     font-size: 60px;
     text-transform: uppercase;
     color: whitesmoke;
@@ -125,6 +126,7 @@ html, body {
     width: 100%;
 }
 
+
 /*
 .img-head {
     background: url(1251510331468_.jpg) no-repeat center center;
@@ -135,12 +137,10 @@ html, body {
 }
 */
 
-
 .carousel-item img {
     width: 100%;
     height: auto;
 }
-
 
 .intro-container {
     border-width: 0px;
@@ -149,53 +149,97 @@ html, body {
     word-wrap: break-word;
     word-break: normal;
     font-size: 26px;
-    font-family: 'Josefin Sans',sans-serif;;
+    font-family: 'Josefin Sans', sans-serif;
+    ;
     color: rgba(240, 240, 240, 0.9);
 }
 
+
 /*.view-btn {*/
-    /*border-width: 2px;*/
-    /*border-color: #408ef8;*/
-    /*text-transform: uppercase;*/
-    /*background: none;*/
-    /*color: white;*/
-    /*height: 65px;*/
-    /*width: 210px;*/
-    /*vertical-align: middle;*/
-    /*-webkit-transition: 1s;*/
-    /*transition: all .15s ease-in-out;*/
-    /*padding-top: 12px;*/
-    /*font-size: 24px;*/
-    /*font-family: Thames;*/
-    /*vertical-align: middle;*/
-    /*cursor: pointer;*/
+
+
+/*border-width: 2px;*/
+
+
+/*border-color: #408ef8;*/
+
+
+/*text-transform: uppercase;*/
+
+
+/*background: none;*/
+
+
+/*color: white;*/
+
+
+/*height: 65px;*/
+
+
+/*width: 210px;*/
+
+
+/*vertical-align: middle;*/
+
+
+/*-webkit-transition: 1s;*/
+
+
+/*transition: all .15s ease-in-out;*/
+
+
+/*padding-top: 12px;*/
+
+
+/*font-size: 24px;*/
+
+
+/*font-family: Thames;*/
+
+
+/*vertical-align: middle;*/
+
+
+/*cursor: pointer;*/
+
+
 /*}*/
+
 
 /*.view-btn span {*/
-    /*!*    padding-top: 20px;*!*/
+
+
+/*!*    padding-top: 20px;*!*/
+
+
 /*}*/
 
+
 /*.view-btn:hover {*/
-    /*color: rgba(240, 240, 240, 0.8) !important;*/
-    /*border-color: rgba(64, 142, 248, 0.8);*/
+
+
+/*color: rgba(240, 240, 240, 0.8) !important;*/
+
+
+/*border-color: rgba(64, 142, 248, 0.8);*/
+
+
 /*}*/
 
 @keyframes ball-up-and-down {
-    0%, 100% {
+    0%,
+    100% {
         opacity: 1;
         margin-top: 15px;
     }
-
     80% {
         opacity: 1;
         margin-top: 33px;
     }
-
     85% {
         opacity: 0;
         margin-top: 33px;
     }
-
     95% {
         opacity: 0;
         margin-top: 15px;
@@ -235,8 +279,10 @@ html, body {
     position: relative;
     width: 110%;
     height: auto;
-    font-family: 'Josefin Sans',sans-serif;;
+    font-family: 'Josefin Sans', sans-serif;
+    ;
 }
+
 
 /* About part*/
 
@@ -287,19 +333,17 @@ html, body {
     width: 55%;
     height: 100%;
     text-align: left;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #about hr {
     height: 2px;
 }
 
-#about .cv-button .btn{
+#about .cv-button .btn {
     background-color: #F46060;
     color: white;
 }
-
-
 
 .container-fluid {
     background-color: cornflowerblue;
@@ -362,7 +406,7 @@ html, body {
     text-align: center;
     opacity: 0;
     color: white;
-    background: rgba(64,142,248,0.75);
+    background: rgba(64, 142, 248, 0.75);
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
@@ -405,7 +449,8 @@ html, body {
         font-size: 22px;
     }
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 28px; }
+        font-size: 28px;
+    }
 }
 
 #ability {
@@ -419,7 +464,7 @@ html, body {
     width: 100%;
     height: 100%;
     position: relative;
-    background-image: url("../DSC04142.png");
+    background-image: url("img/DSC04142.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -428,11 +473,21 @@ html, body {
     background-attachment: fixed;
 }
 
+
 /*.abi-container img {*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*z-index: 1;*/
-    /*position: absolute;*/
+
+
+/*width: 100%;*/
+
+
+/*height: 100%;*/
+
+
+/*z-index: 1;*/
+
+
+/*position: absolute;*/
+
 
 /*}*/
 
@@ -520,7 +575,7 @@ html, body {
     vertical-align: middle;
     z-index: 1000;
     font-size: 1.5em;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .projects-header h2 {
@@ -537,8 +592,8 @@ html, body {
     letter-spacing: 5px;
     width: 100%;
     top: 40%;
-    -webkit-transform: translate3d(0,-50%,0);
-    transform: translate3d(0,-50%,0);
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
 }
 
 .projects-header .line {
@@ -609,7 +664,7 @@ html, body {
     width: 100%;
     height: 100%;
     position: relative;
-    background-image: url("../DSC04142.png");
+    background-image: url("img/DSC04142.png");
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -682,7 +737,6 @@ html, body {
     cursor: pointer;
 }
 
-
 #contact {
     /*background-image: url("../DSC04142.png");*/
     /*background-attachment: fixed;*/
@@ -715,7 +769,7 @@ html, body {
 
 .contact-head h1 {
     font-size: 50px;
-    font-family: 'Josefin Sans',sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     z-index: 1;
 }
 
@@ -820,38 +874,39 @@ html, body {
     font-size: 24px;
     z-index: 200;
     margin-top: 7%;
-    font-family: 'Josefin Sans',sans-serif;;
+    font-family: 'Josefin Sans', sans-serif;
+    ;
 }
 
 #canvas h5 nobr {
     color: #F3D179;
 }
 
-#canvas{
-    width:100%;
-    height:100%;
+#canvas {
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    position:absolute;
-    top:0;
-    left:0;
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: #1a1724;
     border: 0;
 }
 
-.canvas-wrap{
-    position:relative;
+.canvas-wrap {
+    position: relative;
     background-color: #333;
     border: 0;
     position: relative;
     /*    display: inline;*/
 }
 
-div.canvas-content{
-    position:relative;
-    z-index:2000;
-    color:#fff;
-    text-align:center;
-    padding-top:30px;
+div.canvas-content {
+    position: relative;
+    z-index: 2000;
+    color: #fff;
+    text-align: center;
+    padding-top: 30px;
     border: 0;
     opacity: 0.5;
 }
@@ -869,6 +924,7 @@ div.canvas-content{
     z-index: 100;
 }
 
+
 /*
 #back-star {
     height: 100%;
@@ -877,24 +933,3 @@ div.canvas-content{
     z-index: 1;
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
