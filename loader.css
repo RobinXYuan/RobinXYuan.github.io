@@ -2,6 +2,7 @@ html {
     height: 100%;
 }
 
+
 /*
 body {
     height: 100%;
@@ -23,7 +24,7 @@ body {
     background: whitesmoke;
     padding-top: 20%;
     z-index: 9999;
-/*    overflow: hidden;*/
+    /*    overflow: hidden;*/
     /*    display: block;*/
     /*    display: none;*/
 }
