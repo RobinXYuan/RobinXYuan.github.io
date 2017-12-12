@@ -11,9 +11,12 @@
     <!--    <link rel="stylesheet" href="mockup4.css">-->
     <link rel="stylesheet" href="animate.css">
     <link rel="stylesheet" href="css/buttons.css">
-    <link rel="stylesheet" href="js/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/percircle.css">
+<!--    <link rel="stylesheet" href="css/indicator.css">-->
 
     <link rel="shortcut icon" href="../favicon.ico">
+    
     
 <!--    <script defer src="js/fontawesome-all.js"></script>-->
 
@@ -58,7 +61,7 @@
             <div class="carousel-inner">
 
                 <div class="carousel-caption d-none d-md-block carousel-container">
-                    <h1 class="font-weight-bold text-uppercase">Xiaorong YUAn / Robin</h1>
+                    <h1 class="font-weight-bold text-uppercase">YUAN Xiaorong / Robin</h1>
 
                     <div>
                         <br>
@@ -137,20 +140,25 @@
     </header>
 
     <section id="about">
-
+        
+<!--
+        <div class="container">
+        <div class="row">
+-->
+            
         <div class="bound">
             <div class="photo"></div>
         </div>
 
         <div class="intro">
-            <h1>Xiaorong YUAN / Robin</h1>
+            <h1>YUAN Xiaorong / Robin</h1>
             <hr>
             <p>I'm YUAN Xiaorong (Robin), a student from China.</p>
-            <p class="text-justify">I have finished my bachelor degree in University of Shanghai for Science and Texhnology (USST) in 2016. Now, I am a master student at Institut Superieur Electronic de Paris (ISEP), Paris. My major is Wireless Communication and IoT. My professional skills are listed in the <span class="font-weight-bold" style="font-style: italic">What I Can Do</span> part
+            <p class="text-justify">I have finished my bachelor degree in University of Shanghai for Science and Technology (USST) in 2016. Now, I am a master student at Institut Superieur Electronic de Paris (ISEP), Paris. My major is Wireless Communication and IoT. My professional skills are listed in the <span class="font-weight-bold" style="font-style: italic">What I Can Do</span> part
             </p>
             <p class="text-justify">I am also running a Wechat Official Account with my girlfriend, you can follow my Official Account with clicking the <i class="fa fa-qrcode text-lg" aria-hidden="true"></i> button below.</p>
             
-            <div class="button-group links container">
+            <div class="links container">
                 <div class="row">
                     <div class="col-sm-1">
                         <a class="btn-icon button button-highlight button-box button-longshadow-right" href="https://www.weibo.com/5147837936/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank">
@@ -191,7 +199,8 @@
             </div>
 -->
         </div>
-
+<!--        </div>-->
+<!--        </div>-->
     </section>
 
     <section id="ability">
@@ -214,7 +223,8 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="head-page"></div>
-                        <h3>Web Skills</h3>
+                        <div class="item carousel-caption d-none d-md-block">
+                        </div>
                     </div>
                     <div class="carousel-item">
                         <div class="head-page"></div>
@@ -222,7 +232,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="head-page"></div>
-                        <h3>Web Skills</h3>
+                        <h3 class="text-white">Web Skills</h3>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#abilitySlide" role="button" data-slide="prev">
@@ -239,69 +249,273 @@
     </section>
 
     <section id="ability-container">
-
+        
+        <div class="container col-center-block">
+            <div class="inner">
+                <ul class="nav nav-fill">
+                  <li class="nav-item">
+                    <a data-toggle="tab" class="nav-link active text-orange" style="font-size: 26px;" href="#skills">MY SKILLS</a>
+                  </li>
+                  <i class="fa fa-circle text-orange" style="font-size: 8px; margin-top: 20px;"></i>
+                  <li class="nav-item">
+                    <a data-toggle="tab" class="nav-link text-orange" style="font-size: 26px;" href="#projects">PROJECTS</a>
+                  </li>
+                </ul>
+            </div>
+            
+            <div>
+                <br>
+                <br>
+            </div>
+            
+            <div class="tab-content">
+                <div id="skills" class="tab-pane in active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 offset-1 border-right">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">HTML5</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-3 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-linux text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Linux</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><hr><br>
+                        <div class="row">
+                            <div class="col-lg-3 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">HTML5</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="projects" class="tab-pane fade in active">
+<div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">HTML5</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div class="row">
+                            <div class="col-lg-3 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Linux</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div class="row">
+                            <div class="col-lg-3 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">HTML5</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-1">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 offset-2">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
-
-    <!--<section id="projects">-->
-
-    <!--<div id="wrap" class="wrap">-->
-    <!--<div class="head-page"></div>-->
-    <!--<div class="mockup">-->
-    <!--<img class="mockup__img" src="img/mockup4.jpg" />-->
-    <!--<div class="mobile">-->
-    <!--<div class="carousel slide" data-ride="carousel">-->
-    <!--<div class="carousel-inner">-->
-
-    <!--<div class="carousel-item active">-->
-    <!--<img class="d-block w-100" src="img/small/1.png" alt="First Slide">-->
-    <!--</div>-->
-
-    <!--<div class="carousel-item">-->
-    <!--<img class="d-block w-100" src="img/small/2.png" alt="Second Slide">-->
-    <!--</div>-->
-
-    <!--<div class="carousel-item">-->
-    <!--<img class="d-block w-100" src="img/small/3.png" alt="Third Slide">-->
-    <!--</div>-->
-
-    <!--</div>-->
-
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="screen">-->
-    <!--<div class="carousel slide" data-ride="carousel">-->
-    <!--<div class="carousel-inner">-->
-
-    <!--<div class="carousel-item active">-->
-    <!--<img class="d-block w-100" src="img/large/1.png" alt="First Slide">-->
-    <!--</div>-->
-
-    <!--<div class="carousel-item">-->
-    <!--<img class="d-block w-100" src="img/large/2.png" alt="Second Slide">-->
-    <!--</div>-->
-
-    <!--<div class="carousel-item">-->
-    <!--<img class="d-block w-100" src="img/large/3.png" alt="Third Slide">-->
-    <!--</div>-->
-
-    <!--</div>-->
-
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<div class="projects-header">-->
-    <!--<h2>Projects</h2>-->
-    <!--<div class="line">-->
-    <!--<hr class="hr-left">-->
-    <!--<hr class="hr-middle">-->
-    <!--<hr class="hr-right">-->
-    <!--</div>-->
-    <!--<a class="btn btn-github text-white"><h5>VIEW GITHUB</h5></a>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</section>-->
 
     <section id="contact-head">
         <div class="con-container">
@@ -359,7 +573,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <span class="button-wrap">
-                                <a class="button button-jumbo button-circle button-raised btn-yellow">
+                                <a class="wechat button button-jumbo button-circle button-raised btn-yellow" data-toggle="modal" data-target="#wechat-modal">
                                   <i class="fa fa-weixin text-white"></i>
                                 </a>
                             </span>
@@ -421,7 +635,8 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <img src="../QRCode.jpeg" style="width: 60%; height: auto;">
+                    <p>Please scan the QRCode to add my wechat</p>
+                    <img src="img/RQRCode.jpeg" style="width: 60%; height: auto;">
                 </div>
             </div>
         </div>
@@ -441,15 +656,6 @@
         </div>
     </section>
 
-    <script>
-        $('.btn-contact').click(function() {
-            //    window.location.hash = "#about";
-            $('html,body').animate({
-                scrollTop: $('#contact').offset().top
-            }, 500, "easeInOutExpo");
-        });
-    </script>
-
 
     <script src="/js/jquery/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
@@ -457,6 +663,8 @@
     <script src="/js/jquery-easing/jquery.easing.min.js"></script>
     <script src="/js/popper/popper.min.js"></script>
     <script src="/self-js/three.min.js"></script>
+    <script src="js/radialIndicator.js"></script>
+    <script src="js/percircle.js"></script>
 
     <script src="/self-js/projector.js"></script>
     <script src="/self-js/canvas-renderer.js"></script>
@@ -466,7 +674,7 @@
 
     <script src="/self-js/float-panel.js"></script>
     <script src="/self-js/Carousel.js"></script>
-    <script src="showdiv.js"></script>
+    <script src="/self-js/showdiv.js"></script>
 
     <script src="stylish.js"></script>
 </body>
