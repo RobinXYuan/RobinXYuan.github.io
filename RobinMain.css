@@ -8,7 +8,7 @@
 
 .button-highlight {
     background-color: #F3D179;
-}
+}  
 
 .container {
     padding: 0;
@@ -750,6 +750,25 @@ body {
     background-color: rgba(17, 45, 78, 0.8);
 }
 
+#contact-head .btn-mail{
+    border-radius: 50px;
+    background-color: #F46060;
+    color: white;
+}
+
+#contact-head .conh-container {
+    width: 100%;
+    position: absolute;
+    margin-top: 6%;
+}
+
+.col-center-block {  
+    float: none;  
+    display: block;  
+    margin-left: auto;  
+    margin-right: auto;  
+}
+
 .btn-contact {
     width: auto;
     height: auto;
@@ -807,9 +826,10 @@ body {
     z-index: 1;
 }
 
-#contact .wechat {
+#contact .btn-yellow {
     margin: 0 auto;
     cursor: pointer;
+    background: #F3D179;
 }
 
 #contact .head-page {
