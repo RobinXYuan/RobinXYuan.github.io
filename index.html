@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="css/buttons.css">
     <link rel="stylesheet" href="js/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" href="css/percircle.css">
+    <link rel="stylesheet" href="css/microtip.css">
 <!--    <link rel="stylesheet" href="css/indicator.css">-->
 
     <link rel="shortcut icon" href="../favicon.ico">
     
-    
-<!--    <script defer src="js/fontawesome-all.js"></script>-->
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 
 
     <script type="text/javascript">
@@ -160,34 +162,39 @@
             
             <div class="links container">
                 <div class="row">
-                    <div class="col-sm-1">
-                        <a class="btn-icon button button-highlight button-box button-longshadow-right" href="https://www.weibo.com/5147837936/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank">
+                    <div class="col-sm-1" data-microtip="Sina Weibo" data-microtip-position="top">
+                        <a id="btn-icon" class="btn-icon btn button button-highlight button-box button-longshadow-right" href="https://www.weibo.com/5147837936/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank">
                             <i class="fa fa-weibo text-white" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-sm-1" data-microtip="Linkedin" data-microtip-position="top">
                         <a class="btn-icon button button-highlight button-circle button-longshadow-right" href="https://www.linkedin.com/in/%E8%82%96%E5%B5%98-%E8%8B%91-0344baba/" target="_blank">
                             <i class="fa fa-linkedin text-white" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-sm-1" data-microtip="Instagram" data-microtip-position="top">
                         <a class="btn-icon button button-highlight button-circle button-longshadow-right" href="https://www.instagram.com/yuan.xiaorong/" target="_blank">
                             <i class="fa fa-instagram text-white" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-sm-1" data-microtip="Github" data-microtip-position="top">
                         <a class="btn-icon button button-highlight button-circle button-longshadow-right" href="https://robinxyuanblog.github.io/" target="_blank">
                             <i class="fa fa-github text-white" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <div class="col-sm-1">
+                    <div class="col-sm-1" data-microtip="Wechat Official Account" data-microtip-position="top">
                         <a class="btn-icon button button-highlight button-circle button-longshadow-right" href="https://www.instagram.com/yuan.xiaorong/" target="_blank">
                             <i class="fa fa-qrcode text-white" aria-hidden="true"></i>
                         </a>
                     </div>
-                    <div class="col-md-3 offset-md-4">
+                    <div class="col-sm-1" data-microtip="Research Gate" data-microtip-position="top">
+                        <a class="btn-icon button button-highlight button-circle button-longshadow-right" href="https://www.researchgate.net/profile/Xiaorong_Yuan2" target="_blank">
+                            R
+                        </a>
+                    </div>
+                    <div class="col-md-3 offset-md-3">
                         <a class="btn-cv button button-rounded button-glow button-caution">
-                            <i> View CV</i>
+                            <i>View CV</i>
                         </a>
                     </div>
                 </div>
@@ -265,135 +272,69 @@
             
             <div>
                 <br>
-                <br>
             </div>
             
             <div class="tab-content">
-                <div id="skills" class="tab-pane in active">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 offset-1 border-right">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">HTML5</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 offset-1">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 offset-2">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                        <hr>
-                        <br>
-                        <div class="row">
-                            <div class="col-lg-3 offset-1">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-linux text-yellow" style="font-size: 90px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">Linux</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 offset-1">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 offset-2">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <br><hr><br>
-                        <div class="row">
-                            <div class="col-lg-3 offset-1">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">HTML5</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 offset-1">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">CSS3</i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 offset-2">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="fa fa-android text-yellow" style="font-size: 90px;"></i>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <i class="text-yellow" style="font-size: 28px;">Android</i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div id="skills" class="tab-pane in active" style="padding-left: 10%; padding-right: 10%;">
+                    <table class="table no-border">
+                      <tbody class="tbody">
+                        <tr>
+                          <td class="right-border bottom-border">          
+                            <br>
+                            <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">HTML5</i> <br>
+                          </td>
+                          <td class="right-border bottom-border">
+                            <br>
+                            <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">CSS3</i> <br>
+                          </td>
+                          <td class="bottom-border">
+                            <br>
+                            <i class="fa fa-android text-yellow" style="font-size: 80px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">ANDROID</i> <br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="right-border bottom-border">  
+                            <br>
+                            <i class="fa fa-linux text-yellow" style="font-size: 90px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">LINUX</i> <br>
+                          </td>
+                          <td class="right-border bottom-border">
+                            <br>
+                            <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">CSS3</i> <br>
+                          </td>
+                          <td class="bottom-border">
+                            <br>
+                            <i class="fa fa-android text-yellow" style="font-size: 80px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">Android</i> <br>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="right-border">  
+                            <br>
+                            <i class="fa fa-html5 text-yellow" style="font-size: 90px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">HTML5</i>
+                          </td>
+                          <td class="right-border">
+                            <br>
+                            <i class="fa fa-css3 text-yellow" style="font-size: 80px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">CSS3</i>
+                          </td>
+                          <td>
+                            <br>
+                            <i class="fa fa-android text-yellow" style="font-size: 80px;"></i> <br> <br>
+                            <i class="text-yellow" style="font-size: 28px;">Android</i>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
                 
                 <div id="projects" class="tab-pane fade in active">
-<div class="container">
+                    <div class="container">
                         <div class="row">
                             <div class="col-lg-3 offset-1">
                                 <div class="row">
@@ -656,10 +597,6 @@
         </div>
     </section>
 
-
-    <script src="/js/jquery/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/jquery-easing/jquery.easing.min.js"></script>
     <script src="/js/popper/popper.min.js"></script>
     <script src="/self-js/three.min.js"></script>
