@@ -59,7 +59,7 @@ body {
     margin: 0 auto;
     position: fixed;
     overflow: hidden;
-    z-index: 1000;
+    z-index: 100;
 }
 
 .crousel-indicator {
@@ -410,6 +410,7 @@ body {
     width: inherit;
     height: 50%;
     position: relative;
+    z-index: 1;
 }
 
 .abi-container {
@@ -493,8 +494,8 @@ body {
 
 #ability .head-page {
     background-color: rgba(17, 45, 78, 0.8);
-    z-index: 100;
-    position: relative;
+    z-index: 5 !important;
+    position: absolute;
 }
 
 #ability .item{
