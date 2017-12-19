@@ -22,6 +22,13 @@
         var a = $("#"+div).offset().top;
         $("html,body").animate({scrollTop:a}, 'slow');
     }
+    
+//    $(function(){
+//        $("#ityped").typed({
+//            strings: ["First sentence.", "Second sentence."],
+//            typeSpeed: 0
+//        });
+//    });
 
     $(function(){
         $("#back-top").click(function() {

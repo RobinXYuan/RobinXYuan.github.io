@@ -15,20 +15,22 @@
     <link rel="stylesheet" href="css/percircle.css">
     <link rel="stylesheet" href="css/microtip.css">
 <!--    <link rel="stylesheet" href="css/indicator.css">-->
+    <link rel="stylesheet" href="css/print.css">
 
     <link rel="shortcut icon" href="../favicon.ico">
     
-    <script src="/js/jquery/jquery.min.js"></script>
+    <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/bootstrap.bundle.min.js"></script>
-
+<!--    <script src="js/typed.js"></script>-->
+<!--    <script src="https://unpkg.com/ityped@0.0.10"></script>-->
+<!--    <script src="http://code.lslbk.cn/src/ityped/ityped.min.js"></script>-->
 
     <script type="text/javascript">
         window.onload = function() {
             $('.loader').fadeOut(800);
         }
     </script>
-
 
 </head>
 
@@ -48,7 +50,6 @@
         </div>
 
 
-
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
             <!--<ol class="carousel-indicators">-->
@@ -64,18 +65,10 @@
 
                 <div class="carousel-caption d-none d-md-block carousel-container">
                     <h1 class="font-weight-bold text-uppercase">YUAN Xiaorong / Robin</h1>
-
-                    <div>
-                        <br>
-                        <br>
-                    </div>
-
-                    <p class="intro-container text-faded">
-                    </p>
-
-                    <div>
-                        <br>
-
+                    <br>
+                    <br>
+                    <div class="typewriter">
+                        <h2 class="print">An Intern Developer</h2>
                     </div>
 
                     <!--<a class="view-btn btn js-scroll-trigger">View More</a>-->
@@ -153,7 +146,7 @@
         </div>
 
         <div class="intro">
-            <h1>YUAN Xiaorong / Robin</h1>
+            <h1 class="title">YUAN Xiaorong / Robin</h1>
             <hr>
             <p>I'm YUAN Xiaorong (Robin), a student from China.</p>
             <p class="text-justify">I have finished my bachelor degree in University of Shanghai for Science and Technology (USST) in 2016. Now, I am a master student at Institut Superieur Electronic de Paris (ISEP), Paris. My major is Wireless Communication and IoT. My professional skills are listed in the <span class="font-weight-bold" style="font-style: italic">What I Can Do</span> part
@@ -578,7 +571,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <span class="button-wrap">
-                                <a class="button button-jumbo button-circle button-raised btn-yellow">
+                                <a class="button button-jumbo button-circle button-raised btn-yellow" data-toggle="modal" data-target="#QQ-modal">
                                   <i class="fa fa-qq text-white"></i>
                                 </a>
                             </span>
@@ -604,8 +597,23 @@
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <p>Please scan the QRCode to add my wechat</p>
+                    <p>Please scan the QRCode to add my WeChat</p>
                     <img src="img/RQRCode.jpeg" style="width: 60%; height: auto;">
+                </div>
+            </div>
+        </div>
+        <!-- /.modal -->
+    </div>
+    
+    <div class="modal fade bd-example-modal-lg" id="QQ-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Please scan the QRCode to add my QQ</p>
+                    <img src="img/QQRCODE.jpeg" style="width: 50%; height: auto;">
                 </div>
             </div>
         </div>
