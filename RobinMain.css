@@ -286,7 +286,7 @@ body {
     position: absolute;
     /*margin-top: 5px;*/
     animation: ball-up-and-down 2.5s ease infinite;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 .footnote {
@@ -408,7 +408,7 @@ body {
 #ability {
     background-color: #F9F7F7;
     width: inherit;
-    height: 50%;
+    height: 60%;
     position: relative;
     z-index: 1;
 }
@@ -426,6 +426,38 @@ body {
     background-attachment: fixed;
 }
 
+#ability .head-page img {
+    margin-top: 9%;
+    float: left;
+    margin-left: 28%;
+}
+
+#ability .head-page .pro-intro {
+    margin-top: 8.5%;
+    float: right;
+    margin-right: 17%;
+    text-align: left;
+}
+
+.pro-into h1 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto
+    text-align: left;
+    margin-right: 30%;
+    font-size: 20px;
+}
+
+.pro-into p {
+    font-size: 12px;
+}
+
+.pro-intro .btn-git {
+    border-radius: 5px;
+    background-color: #F46060;
+    color: white;
+    cursor: pointer;
+}
 
 /*.abi-container img {*/
 
